@@ -1,0 +1,55 @@
+html,body{
+    height:100%;
+}
+#navbar{
+    position: fixed;
+    font-size: 20px;
+    width: 100%;
+}
+#navbar img{
+    margin-right:480px;
+
+}
+
+#cover{
+    background: url(img/natsav.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    color:darkgreen;
+}
+.cover-caption
+{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.form-group{
+    margin-left: 400px;
+}
+.jumbotron{
+    background-color:transparent ;
+}
+footer {
+
+    background:black;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    bottom:0;
+
+}
+h4{
+    font-size: 30px;
+    font-family: 'Concert One';
+    color:black;
+}
+p{
+    font-size: 20px;
+    font-family: 'Lora';
+    color:black;
+}
